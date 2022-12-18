@@ -50,7 +50,7 @@
             "branch_max_length": 25,
             "fetch_status": true,
             "fetch_upstream_icon": true,
-            "github_icon": "\uf7a3"
+            "github_icon": "\uf7a3 "
           }
         },
         {
@@ -71,7 +71,7 @@
           ],
           "leading_diamond": "<transparent,background>\ue0b0</>",
           "trailing_diamond": "\ue0b4",
-          "template": " \uf0e7 ",
+          "template": " {{ if gt .Code 0 }}\uf00d {{else}}\uf00c {{end}}",
           "properties": {
             "always_enabled": true
           }
